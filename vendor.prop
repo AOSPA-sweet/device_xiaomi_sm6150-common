@@ -161,6 +161,7 @@ debug.stagefright.omx_default_rank=0
 vendor.netflix.bsp_rev=Q6150-17263-1
 
 # Radio
+persist.vendor.radio.add_power_save=1
 persist.vendor.radio.data_ltd_sys_ind=1
 persist.vendor.radio.dynamic_sar=1
 persist.vendor.radio.force_ltd_sys_ind=1
