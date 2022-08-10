@@ -30,6 +30,10 @@ ro.media.recorder-max-base-layer-fps=60
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 
+# ParanoidDoze
+ro.sensor.pickup=xiaomi.sensor.pickup
+ro.sensor.proximity=true
+
 # RCS
 persist.rcs.supported=1
 

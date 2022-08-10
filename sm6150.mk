@@ -246,6 +246,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Perf
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
